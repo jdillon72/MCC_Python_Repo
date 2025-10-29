@@ -71,7 +71,7 @@ def main():
                 if pass_validator(new_pass):
                     valid_password = new_pass
                     break # For exiting the inner while loop. 
-                # If valid_password returns False, the loop continues (forever...until they meet requirements I me).
+                # If valid_password returns False, the loop continues (forever...until they meet requirements I mean).
                 
             # End of try except block. 
             except: 
@@ -101,4 +101,5 @@ def main():
 
 
 # Function for calling main() function. Not to sound repetitive.
+
 main()
